@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto+Condensed:ital@1&family=Ubuntu:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato';
+}
+
+.navbar {
+    background-color: lightskyblue;
+    color: black;
+}
+
+.brand {
+    font-family: 'Pacifico';
+    font-size: 40px;
+    color: red;
+}
+
+.nav-link {
+    font-size: 16px;
+    margin: 15px;
+    color: black;
+    font-family: 'Roboto Condensed';
+}
+
+.nav-link:hover {
+    color: blue !important;
+}
+
+
+/****nav bAR ENDED *****/
+
+.content {
+    background-image: url('https://static.kent.ac.uk/nexus/ems/1014.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.title,
+.desc {
+    color: black;
+    font-family: 'Righteous';
+    font-weight: bold;
+}
+
+.title {
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+
+.site-desc {
+    font-size: 14px;
+    padding-left: 15%;
+}
+
+.site-btn1 {
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 40%;
+}
+
+.site-btn2 {
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 40%;
+}
+
+.section.heading-1 {
+    margin-top: 8%;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.section.para1 {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    font-weight: bold;
+    color: darkblue;
+    font-family: 'Roboto Condensed';
+}
+
+.section {
+    margin-bottom: 8%;
+    margin-top: 4%;
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/** about page***/
+
+.serve {
+    color: blue;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.section1 {
+    margin-top: 6%;
+}
+
+.section1 i {
+    color: orange;
+}
+
+.container1 {
+    border: magenta solid 1px;
+    margin: 3%;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/**********services***************/
+
+.photo-gallery {
+    background-color: lightslategray;
+    margin-bottom: 4%;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+
+.photo {
+    width: 35%;
+    margin-left: 380px;
+    border-radius: 5px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+
+/*******************photogallery***************************/
+
+.call {
+    font-size: 40px;
+}
+
+.social i {
+    font-size: 40px;
+}
+
+.fb,
+.twit {
+    color: blue;
+}
+
+.insta {
+    color: magenta;
+}
+
+.yt {
+    color: crimson;
+}
+
+
+/*******footer seection ends********/
